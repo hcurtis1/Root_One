@@ -1,0 +1,19 @@
+{
+  "name": "root_one",
+  "version": "1.0.0",
+  "description": "Website for root_one",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcurtis1/Root_One.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcurtis1/Root_One/issues"
+  },
+  "homepage": "https://github.com/hcurtis1/Root_One#readme"
+}
