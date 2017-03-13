@@ -10,8 +10,17 @@ body nav div ul li a:hover {
 }
 
 body {
-	background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Home_Bckgrnd_Fotor_v2.jpg);
+	background-image: url(Images/Home_Bckgrnd_Fotor_v2.jpg);
 	background-size: cover;
+}
+
+nav div{
+	border-bottom: 1px black solid;
+	background-color: white;
+}
+
+nav div div {
+	border-bottom: none;
 }
 
 #homeInfo {
