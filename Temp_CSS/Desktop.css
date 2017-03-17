@@ -49,6 +49,7 @@ nav div ul li {
 }
 
 /* CSS styling for home page */
+
 .homeBckRnd a img {
 	position: relative;
 	width: 100%;
@@ -64,6 +65,11 @@ nav div ul li {
 	text-align: center;
 }
 
+#imgCaption {
+	position: absolute;
+	margin: 10px;
+}
+
 #homeQuote {
 	text-align: center;
 	font-size: 10px;
@@ -73,3 +79,18 @@ nav div ul li {
 #homeQuote h1 {
 	padding: 10px;
 }
+
+/* CSS styling for Blog page */
+
+.blogHead {
+
+}
+
+.twitterBox {
+
+}
+
+
+
+
+
