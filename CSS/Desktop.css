@@ -10,7 +10,7 @@ body nav div ul li a:hover {
 }
 
 body {
-	background-image: url(Images/Home_Bckgrnd_Fotor_v2.jpg);
+	background-image: url();
 	background-size: cover;
 }
 
@@ -21,14 +21,4 @@ nav div{
 
 nav div div {
 	border-bottom: none;
-}
-
-#homeInfo {
-	margin-right:auto; 
-	margin-left:auto;
-	position: relative;		
-	width:960px;	
-	border-radius: 10px;
-	padding: 10px;
-	font-size: 0; 
 }
