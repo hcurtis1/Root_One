@@ -1,0 +1,75 @@
+/* Css for Desktop mode*/
+
+
+/* Nav Bar CSS styling */
+
+nav {
+	padding-top: 10px;
+}
+nav div ul li a {
+	display: flex;
+	color: grey;
+	text-decoration: none;
+}
+
+nav div ul li a:hover {
+	color: black;
+	border-radius: 10px;
+	border-bottom: grey 3px solid;
+	border-right: grey 3px solid;
+	transition-duration: 1s;
+}
+
+#navbar-header {
+	border-radius: 5px;
+}
+
+nav div div {
+	border-bottom: none;
+	margin-left: 100px;
+}
+
+nav div ul {
+	display: flex;
+	float: right;
+}
+
+nav div ul li {
+	background-color: white;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/* Styling for tools across website */
+
+.pageDiv {
+	height: 200px;
+	background-color: white;
+}
+
+/* CSS styling for home page */
+.homeBckRnd a img {
+	position: relative;
+	width: 100%;
+}
+
+#HomeHeader {
+    /*add vendor prefixes for border-box*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    margin: 30vh auto 30vh auto;
+	text-align: center;
+}
+
+#homeQuote {
+	text-align: center;
+	font-size: 10px;
+	font-family: Open Sans;
+}
+
+#homeQuote h1 {
+	padding: 10px;
+}
