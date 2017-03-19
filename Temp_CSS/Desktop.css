@@ -50,7 +50,19 @@ nav div ul li {
 
 /* CSS styling for home page */
 
-.homeBckRnd a img {
+#homeBckgrnd {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	height: 100vh;
+	background-image: url(https://static.pexels.com/photos/349609/pexels-photo-349609.jpeg);
+	background-size: cover;
+	position: relative;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+.homeGall a img {
 	position: relative;
 	width: 100%;
 }
@@ -60,24 +72,14 @@ nav div ul li {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    position: relative;
-    margin: 30vh auto 30vh auto;
+    position: absolute;
+    margin: auto auto auto auto;
 	text-align: center;
 }
 
 #imgCaption {
 	position: absolute;
 	margin: 10px;
-}
-
-#homeQuote {
-	text-align: center;
-	font-size: 10px;
-	font-family: Open Sans;
-}
-
-#homeQuote h1 {
-	padding: 10px;
 }
 
 /* CSS styling for Blog page */

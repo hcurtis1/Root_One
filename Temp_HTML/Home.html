@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
     <style type="text/css">
         body {
-            padding-top: 30px;
+            
         }
     </style>
 </head>
@@ -18,35 +18,46 @@
     <nav class="navbar navbar-fixed-top">
         <div class="container-fullwidth">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
                 <a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Home.html"><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/RootOne_BlackBck.png" alt="logoNoBck" width="50" height="50" style="border-radius: 5px;"></a>
             </div>
-            <ul class="nav navbar-nav navbar-right" style="margin-right: 100px">
-                <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Home.html" class="active">Home</a></li>
-                <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/About.html">About Us</a></li>
-                <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Products.html">Products</a></li>
-                <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Blog.html">Blog</a></li>
-                <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/ContactUs.html">Contact Us</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right" style="margin-right: 100px">
+                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Home.html" class="active">Home</a></li>
+                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/About.html">About Us</a></li>
+                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Products.html">Products</a></li>
+                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Blog.html">Blog</a></li>
+                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 <!-- This covers the body of the homepage. Includes pictures and styling to showcase products and grab users into exploring the rest of Webapp --> 
 
-        <!-- Company logo and caption -->
+    <!-- Company logo and caption -->
+    <div id="homeBckgrnd">
         <div id="HomeHeader">
             <a><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/RootOne_font_img.png" alt="nameFont"></a>
             <h2>A healthfood company with focus on etc.</h2>
         </div>
-        <!-- Pictures and written info below -->
-        <div class="homeBckRnd">
-            <a><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Home_Bckgrnd_Fotor_v3_Fotor.jpg" alt="pastaHome"></a>
-            <div class="imgCaption">
-                <h2>
-            </div>
+    </div>
+    <!-- Pictures and written info below -->
+    <div class="homeGall">
+        <a><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Home_Bckgrnd_Fotor_v3_Fotor.jpg" alt="pastaHome"></a>
+        <div class="imgCaption">
+            <h2>
         </div>
-        <div class="pageDiv" id="homeQuote">
-            <h1>"Here is a generic quote about how bloody good this product is, or whatever one liner you'd like in this space." <br> <bold>Henry Curtis</bold></h1>
+    </div>
+    <div class="containter">
+        <div class="jumbotron">
+            <h3 style="">"Here is a generic quote about how bloody good this product is, or whatever one liner you'd like in this space." <br> <bold>Henry Curtis</bold></h3>
         </div>
-        <div class="homeBckRnd">
-            <a><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Renew_Foods_Home_Brownie.jpg" alt="brownieHome"></a>
-        </div>
+    </div>
+    <div class="homeGall">
+        <a><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Renew_Foods_Home_Brownie.jpg" alt="brownieHome"></a>
+    </div>
 </body>
