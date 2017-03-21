@@ -10,6 +10,7 @@ nav div ul li a {
 	display: flex;
 	color: grey;
 	text-decoration: none;
+	font-size: 16px;
 }
 
 nav div ul li a:hover {
@@ -55,16 +56,13 @@ nav div ul li {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 	height: 100vh;
-	background-image: url(https://static.pexels.com/photos/349609/pexels-photo-349609.jpeg);
+	background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/chopping_board_Comp.jpg);
 	background-size: cover;
 	position: relative;
 	padding-top: auto;
 	padding-bottom: auto;
-}
-
-.homeGall a img {
-	position: relative;
-	width: 100%;
+	border-bottom-right-radius:10px; 
+	border-bottom-left-radius:10px;
 }
 
 #HomeHeader {
@@ -73,13 +71,102 @@ nav div ul li {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: absolute;
-    margin: auto auto auto auto;
+	display: block;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    font-family: sans-serif;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
+
+.glyphicon-menu-down {
+	font-size: 50px;
+	position: absolute;
+	display: block;
+    top: 80%;
+    left: 48.5%;
+    align-items: center;
+}
+
+.fixedGall {
+	height: 100vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    position: relative;
+}
+
+#pastaGall {
+	background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Pasta_Filtered.jpg);
+}
+
+#brownieGall {
+	background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Brownie_filtered.jpg);
+}
+
+.homeGall h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 80px;
 	text-align: center;
+	color: white;
+	opacity: 1;
+}
+
+.homeGall {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+	display: block;
+    top: 25%;
+    left: 37%;
+    width: 26%;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    background-color: #DCDCDC;
+    opacity: 0.4;
+    border-radius: 30px;
+
 }
 
 #imgCaption {
 	position: absolute;
 	margin: 10px;
+}
+
+#firstHomeInfo {
+	text-align: center;
+	width: 50%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Open Sans;
+}
+
+#myCarousel {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	display: block;
+    width: 25%;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#secondHomeInfo{
+
+	width: 75%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	font-family: Open Sans;
 }
 
 /* CSS styling for Blog page */
@@ -92,7 +179,10 @@ nav div ul li {
 
 }
 
+/* CSS styling for the Products page */
 
+
+/* CSS styling Contact Us */
 
 
 
