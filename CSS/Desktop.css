@@ -1,24 +1,297 @@
-body nav div ul li a {
+/* Css for Desktop mode*/
+
+
+/* Nav Bar CSS styling */
+
+nav {
+	padding-top: 10px;
+}
+nav div ul li a {
 	display: flex;
 	color: grey;
 	text-decoration: none;
+	font-size: 16px;
 }
 
-body nav div ul li a:hover {
+nav div ul li a:hover {
 	color: black;
-	background-color: none;
+	border-radius: 10px;
+	border-bottom: grey 3px solid;
+	border-right: grey 3px solid;
+	transition-duration: 1s;
 }
 
-body {
-	background-image: url();
-	background-size: cover;
-}
-
-nav div{
-	border-bottom: 1px black solid;
-	background-color: white;
+#navbar-header {
+	border-radius: 5px;
 }
 
 nav div div {
 	border-bottom: none;
+	margin-left: 100px;
 }
+
+nav div ul {
+	display: flex;
+	float: right;
+}
+
+nav div ul li {
+	background-color: white;
+	border: grey 1px solid;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+/* Styling for webapp Footer */
+
+footer {
+	bottom: 0;
+}
+
+.footer {
+	background: #F5F5F5;
+	height: auto;
+	position: relative;
+	width: 100%;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+}
+
+.footer h2 {
+	text-transform: uppercase;
+	color: #5F9EA0;
+	font-size: 20px;
+	font-weight: 400;
+	border-bottom: solid #A9A9A9 1px;
+	padding-bottom: 10px;
+}
+
+.footer ul {
+	font-family: Open sans;
+	list-style-type: none;
+	margin-left: 0px;
+	padding-left: 0px;
+	color: #A9A9A9
+}
+
+
+#siteMap ul li a {
+	color: #A9A9A9;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+
+.social {
+	width: 100%;
+}
+
+.social li {
+	width: 23%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 2px;
+	padding: 0;
+	text-align: center;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+
+}
+
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+.footer-bottom {
+	text-align: center;
+}
+.fotter-bottom h1 {
+	color: white;
+}
+
+/* Styling for tools across webapp */
+
+.pageDiv {
+	height: 200px;
+	background-color: white;
+}
+
+/* CSS styling for home page */
+
+
+/* CSS styling for home header */
+
+#homeBckgrnd {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	height: 100vh;
+	background-size: cover;
+	position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-bottom-right-radius:10px; 
+	border-bottom-left-radius:10px;
+}
+
+#HomeHeader {
+    /*add vendor prefixes for border-box*/
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+	display: block;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    font-family: sans-serif;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+}
+
+.glyphicon-menu-down {
+	margin-top: 20px;
+	font-size: 50px;
+}
+
+.fixedGall {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    position: relative;
+}
+
+#pastaGall {
+
+}
+
+#brownieGall {
+
+}
+
+.homeGall h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 80px;
+	text-align: center;
+	color: white;
+}
+
+.homeGall {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+	display: block;
+    top: 35%;
+    left: 37%;
+    width: 26%;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 30px;
+
+}
+
+#imgCaption {
+	position: absolute;
+	margin: 10px;
+}
+
+#firstHomeInfo {
+	text-align: center;
+	width: 50%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Open Sans;
+}
+
+#myCarousel {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	display: block;
+	width: 50%;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#secondHomeInfo{
+	width: 75%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	font-family: Open Sans;
+}
+
+/* CSS styling for About page */
+
+#aboutBckgrnd {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	height: 100vh;
+	background-size: cover;
+	position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/* CSS styling for Blog page */
+
+.blogHead {
+
+}
+
+.twitterBox {
+
+}
+
+/* CSS styling for the Products page */
+
+
+/* CSS styling Contact Us */
+
+
+

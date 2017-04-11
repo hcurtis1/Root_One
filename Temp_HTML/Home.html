@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Root One</title>
-    <link rel="stylesheet" type="text/css" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/bootstrap/dist/css/bootstrap.css">    
-    <link rel="stylesheet" media="screen and (max-width: 400px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_CSS/Mobile.css" />
-    <link rel="stylesheet" media="screen and (min-width: 401px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_CSS/Desktop.css" />
+    <link rel="stylesheet" type="text/css" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/Mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 401px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/Desktop.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
     <style type="text/css">
         body {
-            
         }
     </style>
 </head>
@@ -28,131 +28,143 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right" style="margin-right: 100px">
-                    <li><a href="Home.html" class="active">Home</a></li>
-                    <li><a href="About.html">About Us</a></li>
-                    <li><a href="Products.html">Products</a></li>
-                    <li><a href="Blog.html">Blog</a></li>
-                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/Products.html">Products</a></li>
+                    <li><a href="/Blog.html">Blog</a></li>
+                    <li><a href="/ContactUs.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-<!-- This covers the body of the homepage. Includes pictures and styling to showcase products and grab users into exploring the rest of Webapp --> 
-
-    <!-- Company logo and caption -->
-    <div id="homeBckgrnd" class="containter">
-        <div id="HomeHeader">
+ <!-- This covers the body of the homepage. Includes pictures and styling to showcase products and grab users into exploring the rest of Webapp --> 
+    <div>
+        <!-- Company logo and caption -->
+        <div id="homeBckgrnd" class="containter" style="background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/CSS-backgrounds/grass-and-the-sky-background.jpg);">
             <a><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/RootOne_font_img.png" alt="nameFont"></a>
             <h2>A healthfood company with focus on etc.</h2>
+            <span class="glyphicon glyphicon-menu-down"></span>
         </div>
-        <span class="glyphicon glyphicon-menu-down"></span>
-    </div>
-    <!-- home page caption and description for healthy food and image carousel -->
-    <div class="containter">
-        <div class="HomeInfo well" id="firstHomeInfo">
-            <h2><bold>High Protein, Low Carb, Great taste!</bold></h2> 
-            <h4>Our mission for people to love healthy food</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <!-- Image carousel-->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol>
-
-            <!-- slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe Photos /Black Bean Tortillas/DSCF2456.jpg" alt="BeanTortillas">
-                </div>
-                <div class="item">
-                    <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe Photos /Chickpea Curry /DSCF2504.JPG" alt="ChickpeaCurry">
-                </div>
-                <div class="item">
-                    <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe Photos /Hummus and Flatbread /DSCF2638.JPG" alt="HummusFlatbread">
-                </div>
-                <div class="item">
-                    <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe Photos /Tagliatelli and artichoke /DSCF2681.JPG" alt="Tagliatelli">
-                </div>
+        <!-- home page caption and description for healthy food and image carousel -->
+        <div class="containter">
+            <div class="HomeInfo well" id="firstHomeInfo">
+                <h2><bold>High Protein, Low Carb, Great taste!</bold></h2> 
+                <h4>Our mission for people to love healthy food</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
+            <!-- Image carousel-->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
 
-            <!-- Arrows -->
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+                <!-- slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                    <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe-Photos/Black-Bean-Tortillas/DSCF2456.jpg" alt="BeanTortillas">
+                    </div>
+                    <br>
+                    <div class="item">
+                        <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe-Photos/Chickpea-Curry/DSCF2504.JPG" alt="ChickpeaCurry">
+                    </div>
+                    <br>
+                    <div class="item">
+                        <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe-Photos/Hummus-and-Flatbread/DSCF2638.JPG" alt="HummusFlatbread">
+                    </div>
+                    <br>
+                    <div class="item">
+                        <img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/Recipe-Photos/Tagliatelli-and-artichoke/DSCF2681.JPG" alt="Tagliatelli">
+                    </div>
+                </div>
+
+                <!-- Arrows -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- Pasta image with fixed scroll-->
+        <div class="fixedGall" id="pastaGall" style="background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/CSS-backgrounds/Pasta_Filtered.jpg);">
+            <div class="homeGall">
+                <h1>A Penne for your Thoughts?</h1>
+            </div>
+        </div>
+        <!-- image break for more information and quotes and reviews-->
+        <div class="containter">
+            <div class="HomeInfo well" id="secondHomeInfo">
+                <h3 style="">"Quotes to say how good the product is or maybe just other information that needs to be added. think quotes would be nice just to say how good product is. rest of the quotes are just ones from interent to be replaced."<br>Henry Curtis</h3>
+                <h3 style="">"The third-rate mind is only happy when it is thinking with the majority. The second-rate mind is only happy when it is thinking with the minority. The first-rate mind is only happy when it is thinking"<br>A.A.Milne</h3>
+                <h3 style="">"Try a thing you haven’t done three times. Once, to get over the fear of doing it. Twice, to learn how to do it. And a third time, to figure out whether you like it or not."<br>Virgil Garnett Thomson</h3>
+                <h3 style="">"When you go into court you are putting your fate into the hands of twelve people who weren’t smart enough to get out of jury duty."<br>Norm Crosby</h3>
+            </div>
+        </div>
+        <!-- Brownie image with fixed scroll-->
+        <div class="fixedGall" id="brownieGall" style="background-image: url(/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/CSS-backgrounds/Brownie_filtered.jpg)"">
+            <div class="homeGall">
+                <h1>Brownie Points for Scrolling This Far!</h1>
+            </div>
         </div>
     </div>
-    <!-- Pasta image with fixed scroll-->
-    <div class="fixedGall" id="pastaGall">
-        <div class="homeGall">
-            <h1>A Penne for your Thoughts?</h1>
-        </div>
-    </div>
-    <!-- image break for more information and quotes and reviews-->
-    <div class="containter">
-        <div class="HomeInfo well" id="secondHomeInfo">
-            <h3 style="">"Quotes to say how good the product is or maybe just other information that needs to be added. think quotes would be nice just to say how good product is. rest of the quotes are just ones from interent to be replaced."<br>Henry Curtis</h3>
-            <h3 style="">"The third-rate mind is only happy when it is thinking with the majority. The second-rate mind is only happy when it is thinking with the minority. The first-rate mind is only happy when it is thinking"<br>A.A.Milne</h3>
-            <h3 style="">"Try a thing you haven’t done three times. Once, to get over the fear of doing it. Twice, to learn how to do it. And a third time, to figure out whether you like it or not."<br>Virgil Garnett Thomson</h3>
-            <h3 style="">"When you go into court you are putting your fate into the hands of twelve people who weren’t smart enough to get out of jury duty."<br>Norm Crosby</h3>
-        </div>
-    </div>
-    <!-- Brownie image with fixed scroll-->
-    <div class="fixedGall" id="brownieGall">
-        <div class="homeGall">
-            <h1>Brownie Points for Scrolling This Far!</h1>
-        </div>
-    </div>
-    <!-- Footer for facebook, twitter and instagram and site navigation-->
+    <!-- Footer for facebook, twitter and instagram and site navigation. This will be present on every page of the webapp-->
     <footer>
         <div class="footer" id="footer">
             <!-- Container -->
-            <div class="container">
+            <div class="container" >
                 <!-- Row -->
                 <div class="row">
                     <!-- Site Map -->
-                    <div class="col-lg-2  col-md-2 col-sm-4 col-xs-6">
-                        <h3>Site Map</h3>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Social</a></li>
-                    </div>
-                    <!-- Social Interaction -->
-                    <div class="col-lg-3  col-md-3 col-sm-6 col-xs-12">
-                        <h3>Keep in Touch!</h3>
-                        <!-- Submit email box -->
-                        <ul>
-                            <li>
-                                <div class="input-append newsletter-box text-center">
-                                    <input type="text" class="full text-center" placeholder="Email ">
-                                    <button class="btn  bg-gray" type="button"> Subscribe <i class="fa fa-long-arrow-right"> </i> </button>
-                                </div>
-                            </li>
-                        </ul>
-                        <!-- Social media interation -->
+                        <div id="siteMap" class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+                            <h2>Site Map</h2>
+                            <ul>
+                                <li><a href="Home.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="Products.html">Products</a></li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="ContactUs.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Social Interaction -->
+                        <div >
+                            <h2>Keep in Touch!</h2>
+                            <!-- Submit email box -->
+                            <ul>
+                                <li>
+                                    <div class="input-append newsletter-box text-center">
+                                        <input type="text" class="full text-center" placeholder="Email ">
+                                        <button class="btn  bg-gray" type="button"> Subscribe <i class="fa fa-long-arrow-right"> </i> </button>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="social">
+                                <li><a href="#"> <i class="fa fa-facebook"></i> </a> </li>
+                                <li><a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+                                <li><a href="#"> <i class="fa fa-instagram"></i> </a> </li>
+                                <li><a href="#"> <i class="fa fa-pinterest"></i> </a> </li>
+                            </ul>
+                            <!-- Social media interation -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class=footer-bottom>
+        <div class="footer-bottom text-muted">
+                <h4> Copyright &copy; RootOne</h4>
         </div>
     </footer>
     <script src="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/jquery/dist/jquery.js"></script>    
     <script src="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+</html>
