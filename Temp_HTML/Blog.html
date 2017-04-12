@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Root One</title>
     <link rel="stylesheet" type="text/css" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" media="screen and (max-width: 400px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_CSS/Mobile.csss" />
-    <link rel="stylesheet" media="screen and (min-width: 401px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_CSS/Desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/Mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 401px)" href="/Users/Henry/Documents/Coding/Projects/RootOne_files/CSS/Desktop.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
     <style type="text/css">
         body {
-            padding-top: 30px;
         }
     </style>
 </head>
@@ -18,19 +19,25 @@
     <nav class="navbar navbar-fixed-top">
         <div class="container-fullwidth">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
                 <a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Home.html"><img src="/Users/Henry/Documents/Coding/Projects/RootOne_files/Images/RootOne_BlackBck.png" alt="logoNoBck" width="50" height="50" style="border-radius: 5px;"></a>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right" style="margin-right: 100px">
-                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Home.html" class="active">Home</a></li>
-                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/About.html">About Us</a></li>
-                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Products.html">Products</a></li>
-                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/Blog.html">Blog</a></li>
-                    <li><a href="/Users/Henry/Documents/Coding/Projects/RootOne_files/Temp_HTML/ContactUs.html">Contact Us</a></li>
+                    <li><a href="Home.html" class="active">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- Content -->
     <div>
         <div class="row">
             <div id="blogHeadd">
@@ -40,4 +47,53 @@
             <a class="twitter-timeline" href="https://twitter.com/SpursOfficial">Tweets by SpursOfficial</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
+<!-- Footer for facebook, twitter and instagram and site navigation. This will be present on every page of the webapp-->
+    <footer>
+        <div class="footer" id="footer">
+            <!-- Container -->
+            <div class="container" >
+                <!-- Row -->
+                <div class="row">
+                    <!-- Site Map -->
+                        <div id="siteMap" class="col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2 col-xs-6">
+                            <h2>Site Map</h2>
+                            <ul>
+                                <li><a href="Home.html">Home</a></li>
+                                <li><a href="About.html">About</a></li>
+                                <li><a href="Products.html">Products</a></li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="ContactUs.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Social Interaction -->
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                            <h2>Keep in Touch!</h2>
+                            <!-- Submit email box -->
+                            <ul>
+                                <li>
+                                    <div class="input-append newsletter-box text-center">
+                                        <input type="text" class="full text-center" placeholder="Email ">
+                                        <button class="btn  bg-gray" type="button"> Subscribe <i class="fa fa-long-arrow-right"> </i> </button>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="social">
+                                <li><a href="#"> <i class="fa fa-facebook"></i> </a> </li>
+                                <li><a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+                                <li><a href="#"> <i class="fa fa-instagram"></i> </a> </li>
+                                <li><a href="#"> <i class="fa fa-pinterest"></i> </a> </li>
+                            </ul>
+                            <!-- Social media interation -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-muted">
+                <h4> Copyright &copy; RootOne</h4>
+        </div>
+    </footer>
+    <script src="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/jquery/dist/jquery.js"></script>    
+    <script src="/Users/Henry/Documents/Coding/Projects/RootOne_files/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+</html>

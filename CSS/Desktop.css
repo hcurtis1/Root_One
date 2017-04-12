@@ -276,8 +276,14 @@ footer {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	border-bottom-right-radius:10px; 
+	border-bottom-left-radius:10px;
 }
 
+#nickPasta img{
+	max-width: 350px;
+	opacity: .98;
+}
 /* CSS styling for Blog page */
 
 .blogHead {
